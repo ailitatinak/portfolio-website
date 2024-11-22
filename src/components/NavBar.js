@@ -7,12 +7,12 @@ function NavBar() {
                 <li>
                     <NavLink to='/'>Home</NavLink>
                 </li>
-                <li>
+                {/* <li>
                     <NavLink to='/art'>Art</NavLink>
                 </li>
                 <li>
                     <NavLink to='/frontenddev'>Front End Development</NavLink>
-                </li>
+                </li> */}
             </ul>
         </nav>
     )
