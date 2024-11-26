@@ -1,6 +1,6 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 
-function NavBar() {
+export function NavBar() {
     return (
         <nav>
             <ul>
