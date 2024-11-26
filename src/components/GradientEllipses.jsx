@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function BlueEllipse() {
+export default function BlueEllipse() {
   return (
     <>
       <div className="div" />
@@ -15,7 +15,7 @@ function BlueEllipse() {
   );
 }
 
-function LimeEllipse() {
+export default function LimeEllipse() {
   return (
     <>
       <div className="div" />
@@ -30,7 +30,7 @@ function LimeEllipse() {
   );
 }
 
-function TaupeEllipse() {
+export default function TaupeEllipse() {
   return (
     <>
       <div className="div" />
