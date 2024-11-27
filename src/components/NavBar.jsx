@@ -7,6 +7,12 @@ export function NavBar() {
                 <li>
                     <NavLink to='/'>Home</NavLink>
                 </li>
+                <li>
+                    <NavLink to='/'>About</NavLink>
+                </li>
+                <li>
+                    <NavLink to='/'>Portfolio</NavLink>
+                </li>
             </ul>
         </nav>
     )
