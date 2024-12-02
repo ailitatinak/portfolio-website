@@ -1,0 +1,21 @@
+.navContainer {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    font-family: 'Archivo narrow';
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+.navLink {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(174, 235, 51, 0.725);
+}
