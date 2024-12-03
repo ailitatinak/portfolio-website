@@ -10,10 +10,10 @@ export function NavBar() {
                     <Link to='/'>Home</Link>
                 </li>
                 <li className='navLink'>
-                    <Link to='/about'>About</Link>
+                    <Link to='/frontenddevelopment'>Front End Development</Link>
                 </li>
                 <li className='navLink'>
-                    <Link to='/portfolio'>Portfolio</Link>
+                    <Link to='/art'>Art</Link>
                 </li>
             </ul>
         </nav>

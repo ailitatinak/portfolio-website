@@ -1,6 +1,5 @@
 import React from "react"
-import { NavBar } from '../components/NavBar';
-import { BlueEllipse } from '../components/GradientEllipses';
+import { NavBar } from '../components/HomeNavBar';
 
 export function HomePage() {
     return (
