@@ -1,21 +1,28 @@
 .navContainer {
     display: flex;
-    gap: 2rem;
     list-style-type: none;
-    font-family: 'Archivo narrow';
+    font-family: 'Staatliches';
     text-transform: uppercase;
     font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 0.2rem;
-}
-
-.navLink {
-    display: flex;
-    justify-content: center;
-    border-radius: 2rem;
+    letter-spacing: 0.5rem;
+    gap: 4rem;
+    justify-content: flex-end;
+    transform: translateY(-2rem);
+    margin: 1rem;
 }
 
 a {
     text-decoration: none;
-    color: rgba(174, 235, 51, 0.725);
+    color: rgb(0, 90, 235);
+    padding-left: 0.8rem;
+    padding-right: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+a:hover {
+    background-color: rgba(0, 96, 251, 0.108);
+}
+
+a:focus {
+    background-color: rgba(0, 96, 251, 0.588);
 }
