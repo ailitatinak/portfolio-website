@@ -7,16 +7,13 @@ export function ANavBar() {
         <nav>
             <ul className='navContainer'>
                 <li className='navLink'>
-                    <Link to='/'>Home</Link>
+                    <Link to='/aportfolio'>Portfolio</Link>
                 </li>
                 <li className='navLink'>
-                    <Link to='/artportfolio'>Portfolio</Link>
+                    <Link to='/ashop'>Shop</Link>
                 </li>
                 <li className='navLink'>
-                    <Link to='/artshop'>Shop</Link>
-                </li>
-                <li className='navLink'>
-                    <Link to='/artabout'>About</Link>
+                    <Link to='/aabout'>About</Link>
                 </li>
             </ul>
         </nav>

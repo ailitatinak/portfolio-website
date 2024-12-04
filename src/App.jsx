@@ -1,8 +1,8 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import { HomePage } from './pages/Home'
-import { AboutPage } from './pages/About'
-import { PortfolioPage } from './pages/Portfolio'
+import { FAboutPage } from './pages/FAbout'
+import { APortfolioPage } from './pages/APortfolio'
 import './styles/home.css'
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <>
       <Routes>
               <Route path='/' element={<HomePage />}></Route>
-              <Route path='/about' element={<AboutPage />}></Route>
-              <Route path='/portfolio' element={<PortfolioPage />}></Route>
+              <Route path='/fabout' element={<FAboutPage />}></Route>
+              <Route path='/aportfolio' element={<APortfolioPage />}></Route>
       </Routes>
     </>
   )
