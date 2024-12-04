@@ -11,7 +11,7 @@ function App() {
       <Routes>
               <Route path='/' element={<HomePage />}></Route>
               <Route path='/fabout' element={<FAboutPage />}></Route>
-              <Route path='/aportfolio' element={<APortfolioPage />}></Route>
+              <Route path='/aportfolio/' element={<APortfolioPage />}></Route>
       </Routes>
     </>
   )

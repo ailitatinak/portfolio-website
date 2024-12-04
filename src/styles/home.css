@@ -21,7 +21,6 @@
     color: rgb(0, 90, 235);
     opacity: 0.8;
     width: 100vw;
-    margin-top: 1rem;
 }
 
 .tilia, .larson, .tioukalias {
@@ -51,8 +50,8 @@
     width: 30rem;
     line-height: 2.7rem;
     color: rgb(0, 90, 235);
-    top: 4rem;
-    left: 3.5rem;
+    top: 7.5rem;
+    left: 5rem;
     font-family: "Square Peg", cursive;
     font-size: 4rem;
     text-align: center;

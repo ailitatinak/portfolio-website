@@ -3,17 +3,16 @@
     list-style-type: none;
     font-family: 'Staatliches';
     text-transform: uppercase;
-    font-size: 2rem;
-    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
     gap: 4rem;
     justify-content: flex-end;
-    transform: translateY(-2rem);
     margin: 1rem;
 }
 
 a {
     text-decoration: none;
-    color: rgb(0, 90, 235);
+    color: rgba(0, 90, 235, 0.752);
     padding-left: 0.8rem;
     padding-right: 0.5rem;
     border-radius: 0.5rem;
