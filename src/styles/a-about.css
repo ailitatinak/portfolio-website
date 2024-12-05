@@ -1,0 +1,31 @@
+.aboutBody {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContent {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    transform: translateY(-1rem);
+}
+
+.aboutContent p {
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    line-height: 95%;
+    width: 40vw;
+    color: rgba(0, 90, 235, 0.752);
+    padding: 1rem;
+}
+
+.imgPlaceholder {
+    width: 30vw;
+    height: 55vh;
+    background-color: lightgray;
+}
