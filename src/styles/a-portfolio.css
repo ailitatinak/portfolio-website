@@ -1,0 +1,52 @@
+.body {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cardsContainer {
+    width: 95vw;
+}
+
+.scrollGallery {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 25rem;
+    height: 30rem;
+    gap: 0.5rem;
+    color: rgba(0, 90, 235, 0.752);
+}
+
+.pfImgPlaceholder {
+    height: 25rem;
+    width: 25rem;
+    background-color: lightgray;
+}
+
+.name {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 1.5rem;
+}
+
+.description, .price {
+    font-family: 'Square Peg', cursive;
+    font-size: 1.5rem;
+    width: 23rem;
+    text-wrap: wrap;
+}
+
+.price {
+    text-align: right;
+}
+

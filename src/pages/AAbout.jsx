@@ -7,9 +7,9 @@ export function AAboutPage() {
   return (
     <>
       <ANavBar />
-      <body className="aboutBody">
+      <article className="aboutBody">
         <AAboutContent />
-      </body>
+      </article>
     </>
   )
 }
