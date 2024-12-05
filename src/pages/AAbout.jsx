@@ -6,7 +6,7 @@ export function AAboutPage() {
   return (
     <>
       <ANavBar />
-      <img src="../assets/painting.jpeg" alt="painting" />
+      <h1>This is the art about page</h1>
     </>
   )
 }

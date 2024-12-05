@@ -7,7 +7,7 @@ export function FNavBar() {
         <nav>
             <ul className='navContainer'>
                 <li className='navLink'>
-                    <Link to='/fportfolio'>Portfolio</Link>
+                    <Link to='/fabout/fportfolio'>Portfolio</Link>
                 </li>
                 <li className='navLink'>
                     <Link to='/fabout'>About</Link>

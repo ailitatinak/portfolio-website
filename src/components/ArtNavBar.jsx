@@ -10,10 +10,10 @@ export function ANavBar() {
                     <Link to='/aportfolio'>Portfolio</Link>
                 </li>
                 <li className='navLink'>
-                    <Link to='/ashop'>Shop</Link>
+                    <Link to='/aportfolio/ashop'>Shop</Link>
                 </li>
                 <li className='navLink'>
-                    <Link to='/aabout'>About</Link>
+                    <Link to='/aportfolio/aabout'>About</Link>
                 </li>
             </ul>
         </nav>
