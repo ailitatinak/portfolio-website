@@ -1,0 +1,7 @@
+.name {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 3rem;
+    color: rgba(0, 90, 235, 0.752);
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+}

@@ -6,8 +6,14 @@
     font-size: 3rem;
     letter-spacing: 0.4rem;
     gap: 4rem;
-    justify-content: flex-end;
     margin: 1rem;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
 }
 
 a {
@@ -18,10 +24,18 @@ a {
     border-radius: 0.5rem;
 }
 
-a:hover {
+.right a:hover {
     background-color: rgba(0, 96, 251, 0.108);
 }
 
-a:focus {
+.right a:focus {
     background-color: rgba(0, 96, 251, 0.588);
+}
+
+.nameHomeLink {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 3rem;
+    color: rgba(0, 90, 235, 0.752);
+    letter-spacing: 0.2rem;
+    cursor: pointer;
 }
