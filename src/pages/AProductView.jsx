@@ -9,7 +9,6 @@ export function ProductView() {
     <>
       <div className="productViewContainer">
         <CaretLeftFill />
-        <ProductCard />
         <CaretRightFill />
       </div>
     </>
