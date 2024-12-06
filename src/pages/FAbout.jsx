@@ -1,11 +1,14 @@
 import React from "react"
 import { FNavBar } from '../components/FrontEndNavBar'
+import { AAboutContent } from "../components/AAboutContent"
 
 export function FAboutPage() {
   return (
     <>
       <FNavBar />
-      <h1>This is the front end about page</h1>
+      <article className="aboutBody">
+        <AAboutContent />
+      </article>
     </>
   )
 }
