@@ -1,12 +1,17 @@
 import React from "react"
-import { ANavBar } from '../components/ArtNavBar'
-import '../styles/a-product-view.css'
+import { ProductCard } from '../components/ProductCard';
+import { CaretLeftFill } from "grommet-icons";
+import { CaretRightFill } from "grommet-icons";
+import '../styles/a-shop.css'
 
-export function AShopPage() {
+export function ProductView() {
   return (
     <>
-      <ANavBar />
-      <h1>This is the product view</h1>
+      <div className="productViewContainer">
+        <CaretLeftFill />
+        <ProductCard />
+        <CaretRightFill />
+      </div>
     </>
   )
 }

@@ -2,13 +2,14 @@ import React from "react"
 import { ANavBar } from '../components/ArtNavBar'
 import { ProductCard } from '../components/ProductCard'
 import { CartBtn } from '../components/CartBtn'
+import { ProductView } from './AProductView'
 import '../styles/a-shop.css';
 
 export function AShopPage() {
   return (
     <>
       <ANavBar />
-      <div className="productsContainer">
+      <div className="productsContainer" >
         <ProductCard/>
         <ProductCard/>
         <ProductCard/>
