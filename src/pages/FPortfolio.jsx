@@ -1,11 +1,18 @@
 import React from "react"
 import { FNavBar } from '../components/FrontEndNavBar'
+import { ProjectContent } from '../components/FProjectContent'
+import '../styles/f-portfolio.css'
 
 export function FPortfolioPage() {
   return (
     <>
       <FNavBar />
-      <h1>This is the front end portfolio page</h1>
+      <div className="projectsContainer">
+        <ProjectContent />
+        <ProjectContent />
+        <ProjectContent />
+      </div>
+      
     </>
   )
 }

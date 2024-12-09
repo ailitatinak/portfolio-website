@@ -3,10 +3,18 @@ import React from "react"
 export function ProjectContent() {
     return (
       <>
-        <div className="container">
-            <h4 className="name">Name</h4>
+        <div className="projectContainer">
+          <div className="leftSection">
+            <div className="descriptionContainer">
+              <p className="projectDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore esse voluptate vitae consequuntur corrupti distinctio iste sunt. Aperiam, deleniti?</p>
+            </div>
+          </div>
+          <div className="rightSection">
+            <h4 className="projectName">Name</h4>
             <div className="pfImgPlaceholder"></div>
-            <p className="description">Molestiae similique nihil iste, repudiandae distinctio mollitia laboriosam ullam. Laudantium, optio aspernatur, corrupti sit aliquid ipsam, non iste in id porro tenetur.</p>
+            <div className="pfImgPlaceholder"></div>
+            <div className="pfImgPlaceholder"></div>
+          </div>
         </div>
       </>
     )

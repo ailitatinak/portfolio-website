@@ -1,0 +1,46 @@
+.projectsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 3rem;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSection {
+    display: flex;
+    width: 20vw;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    text-align: right;
+    justify-content: right;
+}
+
+.descriptionContainer {
+    width: 10rem;
+    color: #005aebc0;
+    font-family: 'Square Peg', cursive;
+    font-size: 1.5rem;
+}
+
+.rightSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 3rem;
+}
+
+.projectName {
+    font-family: 'Staatliches', sans-serif;
+    color: #005aebc0;
+    font-size: 1.5rem;
+}
+
+.pfImgPlaceholder {
+    width: 50rem;
+    height: 30rem;
+}
