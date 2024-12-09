@@ -1,6 +1,8 @@
 import React from "react"
 import { NavBar } from '../components/HomeNavBar';
 
+//Fix placement of navbar
+
 export function HomePage() {
     return (
         <>

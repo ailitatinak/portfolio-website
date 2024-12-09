@@ -3,6 +3,8 @@ import { ANavBar } from '../components/ArtNavBar'
 import { PortfolioCard } from '../components/APortfolioContent';
 import '../styles/a-portfolio.css'
 
+//One card for every item in json
+
 export function APortfolioPage() {
   return (
     <>
