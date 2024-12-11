@@ -1,6 +1,6 @@
 import React from "react"
-import { ProductView } from '../pages/AProductView';
 import Backdrop from '@mui/material/Backdrop';
+// import ProductViewModal from './ProductViewModal';
 
 export function ProductCard() {
   const [open, setOpen] = React.useState(false);

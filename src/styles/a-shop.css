@@ -43,11 +43,11 @@
     color: #005aebc0;
 }
 
-.productName {
+.productName, .productViewName {
     font-family: 'Staatliches', sans-serif;
 }
 
-.productPrice {
+.productPrice, .productViewDescription {
     font-family: 'Square Peg', cursive;
 }
 
@@ -72,11 +72,24 @@
     box-shadow: 1px 1px 3px #829ac0c0;
 }
 
-.productViewContainer {
-    width: 100%;
-    height: 100%;
+.modalContainer {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
+    height: 30rem;
+    width: 40rem;
+    border-radius: 0.5rem;
+}
+
+.productViewImage {
+    height: 25rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+    background-color: lightgray;
+}
+
+.productViewName {
+    font-size: 3rem;
+}
+
+.productViewDescription {
+    color: #005aebc0;
 }
