@@ -1,0 +1,62 @@
+.aboutBody {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContent {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    transform: translateY(-1rem);
+}
+
+.aboutContent p {
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    line-height: 95%;
+    width: 40vw;
+    color: #005aebc0;
+    padding: 1rem;
+}
+
+.imgPlaceholder {
+    width: 30vw;
+    height: 55vh;
+    background-color: lightgray;
+}
+
+.iconsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+
+.contactInfoContainer {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    padding-top: 1rem;
+}
+
+.contactInfoContainer p {
+    text-align: left;
+    line-height: 0.3rem;
+}
+
+.textContentContainer {
+    padding: 1rem;
+}
+
+.iconsAndContactDetails {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 1rem;
+}

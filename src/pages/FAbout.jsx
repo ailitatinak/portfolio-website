@@ -1,6 +1,6 @@
 import React from "react"
 import { FNavBar } from '../components/FrontEndNavBar'
-import { AAboutContent } from "../components/AAboutContent"
+import { AboutContent } from "../components/AboutContent"
 
 //Add contact details
 //Make opposite color theme
@@ -10,7 +10,7 @@ export function FAboutPage() {
     <>
       <FNavBar />
       <article className="aboutBody">
-        <AAboutContent />
+        <AboutContent />
       </article>
     </>
   )
