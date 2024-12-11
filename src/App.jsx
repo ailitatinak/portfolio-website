@@ -6,7 +6,6 @@ import { AAboutPage } from './pages/AAbout'
 import { AShopPage } from './pages/AShop'
 import { FPortfolioPage } from './pages/FPortfolio'
 import { APortfolioPage } from './pages/APortfolio'
-import { ProductView } from './pages/AProductView'
 import { Outlet } from 'react-router-dom';
 import './styles/home.css'
 
