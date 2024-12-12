@@ -1,9 +1,7 @@
 import React from "react"
 import { FNavBar } from '../components/FrontEndNavBar'
 import { ProjectContent } from '../components/FProjectContent'
-import '../styles/f-portfolio.css'
-
-//Add new section for every new project
+import '../styles/f_portfolio.css'
 
 export function FPortfolioPage() {
   return (
@@ -14,7 +12,6 @@ export function FPortfolioPage() {
         <ProjectContent />
         <ProjectContent />
       </div>
-      
     </>
   )
 }

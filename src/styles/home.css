@@ -6,8 +6,8 @@
 
 .pageContainer {
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
 }
@@ -20,11 +20,11 @@
     line-height: 78%;
     color: rgb(0, 90, 235);
     opacity: 0.8;
-    width: 100vw;
+    width: 100%;
 }
 
 .tilia, .larson, .tioukalias {
-    width: 100vw;
+    width: 100%;
 }
 
 .tilia {
@@ -49,13 +49,13 @@
     position: absolute;
     width: 30rem;
     line-height: 2.7rem;
-    color: rgb(0, 90, 235);
+    color: rgba(0, 90, 235, 0.839);
     top: 7.5rem;
     left: 5rem;
     font-family: "Square Peg", cursive;
     font-size: 4rem;
     text-align: center;
-    transform: rotate(-5deg);
+    transform: rotate(-5deg) translateY(-2rem) translateX(-2rem);
 }
 
 .hi {

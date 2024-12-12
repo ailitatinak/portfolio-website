@@ -39,3 +39,15 @@ a {
     letter-spacing: 0.2rem;
     cursor: pointer;
 }
+
+.homeNavContainer {
+    display: flex;
+    list-style-type: none;
+    font-family: 'Staatliches';
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    gap: 4rem;
+    margin: 1rem;
+    justify-content: flex-end;
+}

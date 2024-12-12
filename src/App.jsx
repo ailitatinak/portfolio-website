@@ -1,12 +1,11 @@
 import './App.css'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Outlet } from 'react-router-dom'
 import { HomePage } from './pages/Home'
 import { FAboutPage } from './pages/FAbout'
 import { AAboutPage } from './pages/AAbout'
 import { AShopPage } from './pages/AShop'
 import { FPortfolioPage } from './pages/FPortfolio'
 import { APortfolioPage } from './pages/APortfolio'
-import { Outlet } from 'react-router-dom';
 import './styles/home.css'
 
 function App() {

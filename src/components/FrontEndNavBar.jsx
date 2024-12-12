@@ -1,6 +1,6 @@
-import { Link} from 'react-router-dom';
-import React from 'react';
-import '../styles/nav-bar.css';
+import { Link} from 'react-router-dom'
+import React from 'react'
+import '../styles/nav_bar.css'
 
 export function FNavBar() {
     return (

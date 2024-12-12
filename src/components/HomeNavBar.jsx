@@ -1,11 +1,11 @@
-import { Link} from 'react-router-dom';
-import React from 'react';
-import '../styles/nav-bar.css';
+import { Link} from 'react-router-dom'
+import React from 'react'
+import '../styles/nav_bar.css'
 
 export function NavBar() {
     return (
         <nav>
-            <ul className='navContainer'>
+            <ul className='homeNavContainer'>
                 <li className='navLink'>
                     <Link to='/fabout'>Front End Dev.</Link>
                 </li>

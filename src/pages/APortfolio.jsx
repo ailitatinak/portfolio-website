@@ -1,9 +1,7 @@
 import React from "react"
 import { ANavBar } from '../components/ArtNavBar'
 import { PortfolioCard } from '../components/APortfolioContent';
-import '../styles/a-portfolio.css'
-
-//One card for every item in json
+import '../styles/a_portfolio.css'
 
 export function APortfolioPage() {
   return (
