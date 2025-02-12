@@ -1,4 +1,4 @@
-# A portfolio website split in two sections
+# A portfolio website
 
 Naming and formatting:
 
