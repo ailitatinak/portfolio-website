@@ -41,7 +41,8 @@
 
 .faceImg {
     position: absolute;
-    left: 60vw;
+    transform: scale(85%);
+    left: 55vw;
     z-index: -1;
 }
 
@@ -49,7 +50,7 @@
     position: absolute;
     width: 30rem;
     line-height: 2.7rem;
-    color: rgba(0, 90, 235, 0.839);
+    color: rgba(0, 54, 140, 0.839);
     top: 7.5rem;
     left: 5rem;
     font-family: "Square Peg", cursive;
