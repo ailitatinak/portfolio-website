@@ -13,21 +13,16 @@ Since it's not a website I would want to use with its current format/design, I h
 ![Shop page](src/assets/read_me_shop.png)
 
 # Installation and Setup Instructions
-Clone down this repository. You will need node and npm installed globally on your machine.
+Clone down this repository. You will need node and npm installed globally.
 
-Installation:
+Install:
 
+```bash 
 npm install
+```
 
-To Start Server:
+Start Server:
 
+```bash
 npm run dev
-
-To Visit App:
-
-o
-
-(or)
-
-localhost:3000/ideas
-
+```
