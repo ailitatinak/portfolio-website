@@ -6,7 +6,7 @@ The idea was to have a home page where the user can navigate to one of my two ar
 
 Since it's not a website I would want to use with its current format/design, I haven't continued the development.
 
-# Screen Shots
+# Screenshots
 ![Home page](src/assets/read_me_home.png)
 ![About page](src/assets/read_me_about.png)
 ![Portfolio page](src/assets/read_me_portfolio.png)
