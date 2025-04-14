@@ -21,7 +21,7 @@ Install:
 npm install
 ```
 
-Start Server:
+Start local server:
 
 ```bash
 npm run dev
